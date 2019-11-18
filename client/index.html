@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tradenet</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/fontello.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body class="page">
+		<div class="page__row">
+			<header class="header">
+				<div class="header__bg" style="background-image: url(images/large-bg.jpg);">
+					<div class="page__cell flex">
+						<div class="first-section">
+							<p class="first-section__slogan">We teach you. We fund you.</p>
+							<h1 class="headline--highlighted">You keep most of the profits</h1>
+							<h2>We have educated more than</h2>
+							<h1 class="headline--turquoise">16,000 traders worldwide</h1>
+							<h2 class="headline-second">since 2004 & completely funded their trading accounts. You can be next</h2>
+							<div class="field"></div>
+						</div>
+						<div class="second-section">
+							<div class="second-section__wrap">
+								<div class="logo">
+									<a href="#" class="logo__link">
+										<img class="logo__picture" src="images/logo.png" alt="">
+									</a>
+								</div>
+								<h2 class="second-section__slogan">You’re one step away from joining our elite trading team</h2>
+								<p class="second-section__top-text">Just fill in the fields below with your personal data</p>
+								<div class="form">
+									<form action="http://localhost:3091/register" method="POST" id="form" novalidate>
+										<div class="form__field form__field--name">
+											<input class="form__input" type="text" name="name" placeholder="First Name" required minlength="3"/>
+										</div>
+										<div class="form__field form__field--surname">
+											<input class="form__input" type="text" name="surname" placeholder="Last Name" required minlength="3"/>
+										</div>
+										<div class="form__field form__field--email">
+											<input class="form__input" type="text" name="email" placeholder="Email" pattern="([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}" required/>
+										</div>																		
+										<div class="form__field form__field--country">
+											<select class="form__select" name="country" required minlength="3">
+												<option selected value="Romania">Romania</option>
+												<option value="Ukraine">Ukraine</option>
+												<option value="Italy">Italy</option>
+											</select>
+										</div>
+										<div class="form__field form__field--phone">
+											<label for="phone">+40000</label>
+											<input class="form__input" type="text" name="phone" placeholder="Phone" id="phone" pattern="[0-9]{7,}" required/>
+										</div>
+										<div class="form__field">
+											<input class="button button--submit-form" type="submit" name="submit" value="Try a 14-day trial period" style="background-image: url(images/bt-top.png);"/>
+										</div>				
+									</form>
+								</div>
+								<p class="form__bottom-text">You will be contacted shortly by one of our trading mentors.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>			
+		<div class="page__row">
+			<div class="bullets__bg" style="background-image: url(images/bullets-bg.jpg);">
+				<div class="page__cell">
+					<h1 class="headline--center">What we offer</h1>
+					<div class="advantage">
+						<div class="advantage__item">
+							<span class="icon-wrap advantage__icon">
+								<img src="images/b-1.png" alt="bullet1" class="icon-wrap__picture">
+							</span>
+							<h3 class="advantage__headline">Personalized trading education</h3>
+							<div class="advantage__description">
+								<span class="extrabold">Meir Barak</span> and his team of highly skilled financial experts provide you with 1-on-1 personal mentorship in the art of day trading
+							</div>
+						</div>
+						<div class="advantage__item advantage__item--second">
+							<span class="icon-wrap advantage__icon">
+								<img src="images/b-2.png" alt="bullet2" class="icon-wrap__picture">
+							</span>
+							<h3 class="advantage__headline">A Pro Funded Account</h3>
+							<div class="advantage__description">
+								<p class="advantage__paragraph">Upon completion of a Self-Study course and a 14-day demo practice you will receive a funded trading account of up to $240,000.</p>
+								<p class="advantage__paragraph advantage__paragraph--last">Any losses are absorbed by Tradenet and you keep 80% to 95% of the profits you earn from trading</p>
+							</div>
+						</div>	
+						<div class="advantage__item">
+							<span class="icon-wrap advantage__icon">
+								<img src="images/b-3.png" alt="bullet3" class="icon-wrap__picture">
+							</span>
+							<h3 class="advantage__headline">Stellar trading academy</h3>
+							<div class="advantage__description">
+								<ul class="advantage__description--ul">
+									<li class="advantage__paragraph">Get access to extensive training materials, Demo Account, live practice sessions & much more, everything designed for your skill level</li>
+									<li class="advantage__paragraph advantage__paragraph--last">All with as low as $500!</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page__row">
+				<div class="bottom__bg" style="background-image: url(images/bt-bg.jpg);">
+					<div class="page__cell">
+						<h1 class="headline--bottom">Allow us to fund you</h1>
+						<button class="button bottom-button" style="background-image: url(images/bt-bottom.png);">Start Now</button>
+					</div>
+			</div>
+		</div>
+		<div class="page__row page__row--footer">
+				<div class="page__cell">
+					<footer class="footer">
+							<p class="footer__paragraph">
+								Tradenet is a Day Trading Training school that offers day and swing trading courses in stocks, CFDs, options, futures and Forex. At Tradenet we specialize in day trading courses that are suitable for those familiar with day trading, or beginners with no prior knowledge or experience with day trading.
+							</p>
+							<p class="footer__paragraph">
+								We offer three different learning options; Self-Study online course, online courses in the comfort of your own home or an exclusive course, one-on-one with an experienced day trading mentor at your own pace. We also offer online live day Trading Room and the potential for funded sub-accounts for our students. Most of our services are offered in several languages, including: Spanish, German, French, Russian, Hungarian, Italian, Arabic and more.
+							</p>
+					</footer>
+				</div>
+		</div>
+	<script src="js/script.js"></script>
+	</body>
